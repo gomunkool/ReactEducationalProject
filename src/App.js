@@ -1,10 +1,11 @@
 import Layout from "./hoc/Layout/Layout";
+import Quiz from "./containers/Quiz/Quiz";
 
 export default function App() {
   return (
-    <div className="App">
-<Layout></Layout>  
-  </div>
+        <Layout>
+            <Quiz/>
+        </Layout>  
   );
 }
 
