@@ -7,7 +7,6 @@ class Layout extends Component{
       <div className='layout'>
         <main className='layout__main'>       
            {this.props.children}
-           {console.log(this.props.children)}
          </main>
       </div>
     )
